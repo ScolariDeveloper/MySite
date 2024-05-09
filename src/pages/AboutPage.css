@@ -1,0 +1,14 @@
+/* AboutPage.css */
+.container {
+  perspective: 1000px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .card-content {
+    padding: 15px;
+  }
+}

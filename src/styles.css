@@ -1,0 +1,80 @@
+/* styles.css */
+
+/* Paletta di colori */
+:root {
+  --primary: #000000;
+  --secondary: #490000;
+  --accent: #90c2e7;
+  --background: #383838;
+  --text-dark: #181818;
+  --text-light: #dbd3d48e;
+  --containers: #dbd3d48e;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background);
+  color: var(--text-dark);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+  perspective: 1000px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+button,
+.button {
+  background-color: var(--primary);
+  color: var(--text-light);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+}
+
+button:hover,
+.button:hover {
+  background-color: var(--secondary);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}

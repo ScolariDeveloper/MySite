@@ -1,0 +1,15 @@
+/* Footer.css */
+.footer {
+  background-color: var(--secondary);
+  color: var(--text-light);
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 14px;
+  }
+}
