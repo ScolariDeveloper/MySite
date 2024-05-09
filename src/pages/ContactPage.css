@@ -7,25 +7,6 @@
   width: 100%;
 }
 
-.card {
-  background-color: var(--text-light);
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgb(255, 255, 255);
-  overflow: hidden;
-  transition: all 0.3s ease;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-}
-
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgb(255, 255, 255);
-}
-
-.card-content {
-  padding: 20px;
-}
-
 @media (max-width: 768px) {
   .card-content {
     padding: 15px;

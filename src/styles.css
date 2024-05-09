@@ -4,18 +4,21 @@
 :root {
   --primary: #000000;
   --secondary: #490000;
-  --accent: #90c2e7;
-  --background: #383838;
+  --accent: #ff8945;
+  --background: #272727;
   --text-dark: #181818;
-  --text-light: #dbd3d48e;
-  --containers: #dbd3d48e;
+  --text-light: #ffffff;
+  --card: #ffffff;
+  --card-text: #6d0b0b;
 }
 
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background-color: var(--background);
-  color: var(--text-dark);
+
+  background-image: linear-gradient(-65deg, #fff 50%, #a51010 50%);
+
+  color: var(--text-light);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -36,10 +39,8 @@ body {
   min-height: 100vh;
 }
 
-h1,
-h2,
-h3 {
-  color: var(--primary);
+h1 {
+  color: var(--text-light);
   font-weight: 600;
 }
 

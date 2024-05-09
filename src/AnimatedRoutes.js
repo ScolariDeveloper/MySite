@@ -1,4 +1,4 @@
-// AnimatedRoutes.js
+// src/AnimatedRoutes.js
 import React from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -43,4 +43,4 @@ const AnimatedRoutes = () => {
   );
 };
 
-export const Router = AnimatedRoutes;
+export default AnimatedRoutes;
