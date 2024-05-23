@@ -5,8 +5,8 @@ import Card from '../components/Card'
 function ContactPage() {
   return (
     <div className="container">
-      <h1>Contact Us</h1>
-        <Card title="title" par="par"></Card>
+      <h1>Contact</h1>
+        <Card title="Scemo chi legge" par="par"></Card>
     </div>
   );
 }
